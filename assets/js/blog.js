@@ -1,7 +1,7 @@
 console.log("Turkey")
 
 
-let storedData = localStorage.getItem("formData");
+let storedData = localStorage.getItem("formData")
 if (storedData) {
     let formData = 
     JSON.parse(storedData);
@@ -13,32 +13,4 @@ if (storedData) {
 } else {
 
 }
-
-
-
-let formData = {
-    username: 
-    document.getElementById("username").value,
-    title: 
-    document.getElementById("title").value,
-    content: 
-    document.getElementById("content").value
-};
-
-localStorage.setItem("formData", 
-JSON.stringify(formData));
-
-let submissionElement = 
-document.createElement("div");
-submissionElement.innerHTML = 
-"Title:" + formData.title + 
-"Content:" + formData.content + 
-"Username:" + formData.username;
-
-let submissionsContainer = 
-document.getElementById("submissions");
-
-submissionsContainer.appendChild(submissionElement);
-
-document.getElementById("myForm").reset();
 
