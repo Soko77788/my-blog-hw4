@@ -12,7 +12,8 @@ document.getElementById("form").addEventListener("submit", function(event) {
         document.getElementById("content").value
     };
 
- localStorage.setItem("formData", JSON.stringify(formData));
+localStorage.setItem("formData", JSON.stringify(formData));
+
 
     window.location.href = "file:///Users/sokos6/Desktop/my-blog-hw4/blog.html";
 

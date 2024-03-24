@@ -1,5 +1,22 @@
+:root{
+    --primary-color: black;
+    --secondary-color: white;
+    --button-color: yellow;
+}
+
+.dark-theme {
+    --primary-color: black;
+    --secondary-color: white;
+    --button-color: yellow;
+}
+.light-theme {
+    --primary-color: white;
+    --secondary-color: black;
+    --button-color: black;
+}
+
 * {
-    background-color: black;
+    background-color: var(--primary-color);
 }
 
 html, body {
@@ -11,7 +28,7 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 101%;
-        border: 2px solid white;
+        border: 2px solid var(--secondary-color);
         border-width: 5px;
         border-top: none;
         border-left: none;
@@ -25,7 +42,7 @@ header {
 .h1-container {
     display: flex;
     justify-content: flex-start;
-    color: white;
+    color: var(--secondary-color);
     text-align: left;
     font-size: 30px;
 }
@@ -37,7 +54,7 @@ header {
 }
 
 input {
-    color: white;
+    color: var(--secondary-color);
     height: 50px;
     width: 150px; 
     text-align: center;
@@ -45,9 +62,9 @@ input {
     padding-right: 20px;
 }
 
-#toggle-switch {
+#lightDark {
 
-    background-color: yellow;
+    background-color: var(--button-color);
     height: 50px;
     width: 50px;
     padding-left: 10px;
@@ -56,21 +73,21 @@ input {
 
 .blog-post {
     display: block;
-    border: 1px solid white; 
+    border: 1px solid var(--secondary-color); 
     height: 50%;
 }
 
 section {
     display: block;
-    border: 1px solid white;
-    color: white;
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
     height: 100%;
 }
 
 p {
     font-size: 30px;
     margin-left: 5px;
-    border: 1px solid white;
+    border: 1px solid var(--secondary-color);
     border-left: none;
     border-bottom: none;
 }
@@ -80,18 +97,18 @@ border-top: none;
 }
 
 .title {
-border-bottom: 1px solid white;
+border-bottom: 1px solid var(--secondary-color);
 
 }
 
 .posted-by {
-    border-top: 1px solid white;
+    border-top: 1px solid var(--secondary-color);
     border-bottom: none;
 }
 
 footer {
-    color: white;
+    color: var(--secondary-color);
     font-size: 50px;
-    border: 1px solid white;
+    border: 1px solid var(--secondary-color);
     text-align: center;
 }
