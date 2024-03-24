@@ -2,6 +2,96 @@
     background-color: black;
 }
 
-h1 {
+html, body {
+    height: 100%;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 101%;
+        border: 2px solid white;
+        border-width: 5px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        margin: -2px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 50px;
+    }
+
+.h1-container {
+    display: flex;
+    justify-content: flex-start;
     color: white;
+    text-align: left;
+    font-size: 30px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 25px;
+}
+
+input {
+    color: white;
+    height: 50px;
+    width: 150px; 
+    text-align: center;
+    font-size: 30px;
+    padding-right: 20px;
+}
+
+#toggle-switch {
+
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    padding-left: 10px;
+    margin-left: 30px;
+}
+
+.blog-post {
+    display: block;
+    border: 1px solid white; 
+    height: 50%;
+}
+
+section {
+    display: block;
+    border: 1px solid white;
+    color: white;
+    height: 100%;
+}
+
+p {
+    font-size: 30px;
+    margin-left: 5px;
+    border: 1px solid white;
+    border-left: none;
+    border-bottom: none;
+}
+
+.title, .content, .posted-by {
+border-top: none;
+}
+
+.title {
+border-bottom: 1px solid white;
+
+}
+
+.posted-by {
+    border-top: 1px solid white;
+    border-bottom: none;
+}
+
+footer {
+    color: white;
+    font-size: 50px;
+    border: 1px solid white;
+    text-align: center;
 }

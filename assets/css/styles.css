@@ -23,13 +23,13 @@ header {
     padding-right: 50px;
 }
 
-
 #toggle-switch {
 
     background-color: yellow;
     height: 50px;
     width: 50px;
 }
+
 
 #section-container {
     display: flex;
