@@ -52,3 +52,9 @@ AI learning assistant!
 
 3. The hardest part was definitely getting the blog posts to remain on the 2nd page and not reset after you filled out another form. 
 
+## Updates
+
+No future updates on this project. 
+
+## No Contributions
+
