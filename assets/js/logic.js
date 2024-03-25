@@ -5,17 +5,34 @@ lightDark.onclick = function(){
 }
 
 
+// function toggleTheme() {
+
+//     document.body.classList.toggle('dark-theme');
+
+//     let isDarkMode = document.body.classList.contains('dark-theme');
+// localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+
+// document.getElementById('lightDark').addEventListener('click', toggleTheme);
+
+// let savedTheme = localStorage.getItem('theme');
+// if (savedTheme === 'dark') {
+//     document.body.classList.add('dark-theme');
+// }
+// }
+
 function toggleTheme() {
+    let body = document.body;
 
-    document.body.classList.toggle('dark-mode');
+    body.classList.toggle('dark-theme');
 
-    let isDarkMode = document.body.classList.contains('dark-mode');
-localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+    let isDarkMode = body.classList.contains('dark-theme');
+
+    localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+}
 
 document.getElementById('lightDark').addEventListener('click', toggleTheme);
 
-let savedTheme = localStorage.getItem('theme');
+let savedTheme = localStorage.getItem('theme');localStorage.getItem('theme');
 if (savedTheme === 'dark') {
-    document.body.classList.add('dark-mode');
-}
+    document.body.classList.add('dark-theme');
 }
