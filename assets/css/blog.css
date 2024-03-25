@@ -112,3 +112,15 @@ footer {
     border: 1px solid var(--secondary-color);
     text-align: center;
 }
+
+a:visited {
+    color: var(--secondary-color);
+}
+
+a:hover {
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+}
