@@ -14,9 +14,11 @@ To use the applicaton. Fill out the form on the first page. After clicking submi
 ![form screenshot](assets/images/form.png)
 
 
-On the blog posts page (page#2) you can use the BACK button to go back and submit more blog posts and on both pages you can use the light/dark theme button to switch between light and dark mode. You
+On the blog posts page (page#2) you can use the BACK button to go back and submit more blog posts and on both pages you can use the light/dark theme button to switch between light and dark mode.
 
 ![back button](assets/images/gobackbutton.png)
+
+You can also view important information being stored in your local Storage if you right click ---> inspect and read the console and application tabs. Light/Dark theme aswell as form submissions will be stored in there. 
 
 ![local storage screen](assets/images/localStorage.png)
 
