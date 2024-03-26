@@ -1,27 +1,28 @@
 document.getElementById("form").addEventListener("submit", function(event) {
     event.preventDefault(); 
-})
 
+const blogPosts = JSON.parse(localStorage.getItem("blogPosts")) || []
    
 
-//     let formData = { 
-//         username: 
-//         document.getElementById("username").value,
-//         title: 
-//         document.getElementById("title").value,
-//         content: 
-//         document.getElementById("content").value
-//     };
+    let formData = { 
+        username: 
+        document.getElementById("username").value,
+        title: 
+        document.getElementById("title").value,
+        content: 
+        document.getElementById("content").value
+    };
 
-// localStorage.setItem("formData", JSON.stringify(formData));
+    blogPosts.push(formData)
+
+localStorage.setItem("blogPosts", JSON.stringify(blogPosts));
 
 
-//     window.location.href = "file:///Users/sokos6/Desktop/my-blog-hw4/blog.html";
+    window.location.href = "file:///Users/sokos6/Desktop/my-blog-hw4/blog.html";
 
-//     document.getElementById("form").reset();
+    document.getElementById("form").reset();
 
-// });
-
+});
 
 
 
@@ -38,53 +39,53 @@ document.getElementById("form").addEventListener("submit", function(event) {
 
 // submissionsContainer.appendChild(submissionElement);
 
-const collectFormData = function() {
+// const collectFormData = function() {
 
 
-let formDataArray = [];
+// let formDataArray = [];
 
-while(true) {
-    let username =
-    document.getElementById("username").value;
+// while(true) {
+//     let username =
+//     document.getElementById("username").value;
 
-        if (username === null) {
-            break;
-        }
+//         if (username === null) {
+//             break;
+//         }
 
-    let title = 
-    document.getElementById("title").value;
+//     let title = 
+//     document.getElementById("title").value;
 
-        if (title === null) {
-            break;
-        }
+//         if (title === null) {
+//             break;
+//         }
 
-    let content =
-    document.getElementById("content").value;
+//     let content =
+//     document.getElementById("content").value;
 
-        if(content === null) {
-            break;
-        }
-        else {
-            break;
-        }
+//         if(content === null) {
+//             break;
+//         }
+//         else {
+//             break;
+//         }
 
-    let formData = {
-        username: username,
-        title: title,
-        content: content
-    };
+//     let formData = {
+//         username: username,
+//         title: title,
+//         content: content
+//     };
 
-    formDataArray.push(formData);
-    console.log(formDataArray)
+//     formDataArray.push(formData);
+//     console.log(formDataArray)
 
-};
+// };
 
-return formDataArray
-}
+// return formDataArray
+// }
 
-localStorage.setItem("formDataArray", JSON.stringify(formDataArray));
+// localStorage.setItem("formDataArray", JSON.stringify(formDataArray));
 
 
-    window.location.href = "file:///Users/sokos6/Desktop/my-blog-hw4/blog.html";
+//     window.location.href = "file:///Users/sokos6/Desktop/my-blog-hw4/blog.html";
 
-    document.getElementById("form").reset();
+//     document.getElementById("form").reset();
