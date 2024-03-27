@@ -20,7 +20,7 @@ localStorage.setItem("blogPosts", JSON.stringify(blogPosts));
 
 
 
-    window.location.href = "file:///Users/sokos6/Desktop/my-blog-hw4/blog.html";
+    window.location.href = "blog.html";
 
     document.getElementById("form").reset();
 
