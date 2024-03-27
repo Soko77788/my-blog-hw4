@@ -22,7 +22,7 @@
 }
 
 html, body {
-    height: 100%;
+    height: auto;
 }
 
 header {
@@ -91,7 +91,7 @@ p {
     margin-left: 5px;
     border: 1px solid var(--secondary-color);
     border-left: none;
-    border-bottom: none;
+    border-bottom: 1px solid var(--secondary-color);
 }
 
 .title, .content, .posted-by {
