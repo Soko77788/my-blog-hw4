@@ -6,6 +6,7 @@ A form submission app that stores blog posts and can toggle and light and dark m
 No installation needed just visit the following link to the deployed web page!
 
 <!-- TODO add link to deployed gitpage -->
+https://soko77788.github.io/my-blog-hw4/blog.html
 
 ## Usage
 
@@ -20,7 +21,7 @@ On the blog posts page (page#2) you can use the BACK button to go back and submi
 
 You can also view important information being stored in your local Storage if you right click ---> inspect and read the console and application tabs. Light/Dark theme aswell as form submissions will be stored in there. 
 
-![local storage screenshot](assets/images/localStorage.png)
+![local storage screen](assets/images/localStorage.png)
 
 ## No Configuration
 
