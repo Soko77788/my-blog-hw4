@@ -6,7 +6,7 @@ A form submission app that stores blog posts and can toggle and light and dark m
 No installation needed just visit the following link to the deployed web page!
 
 <!-- TODO add link to deployed gitpage -->
-https://soko77788.github.io/my-blog-hw4/blog.html
+https://soko77788.github.io/my-blog-hw4/
 
 ## Usage
 
